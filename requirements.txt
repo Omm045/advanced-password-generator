@@ -1,0 +1,18 @@
+# Core dependencies for Password Generator
+tkinter  # Usually included with Python
+secrets  # Built-in module
+string   # Built-in module
+random   # Built-in module
+json     # Built-in module
+csv      # Built-in module
+math     # Built-in module
+os       # Built-in module
+re       # Built-in module
+datetime # Built-in module
+collections  # Built-in module
+typing   # Built-in module
+
+# Optional dependencies for enhanced features
+# cryptography>=3.4.8  # For advanced cryptographic functions  
+# argon2-cffi>=21.3.0  # For password hashing
+# pyperclip>=1.8.2     # For enhanced clipboard operations

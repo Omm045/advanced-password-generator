@@ -1,0 +1,150 @@
+
+## 📖 Usage Guide
+
+### Basic Password Generation
+1. Open the application
+2. Configure your password requirements:
+   - Set desired length (4-128 characters)
+   - Select character types (uppercase, lowercase, numbers, symbols)
+   - Choose advanced options (exclude similar characters, add custom characters)
+3. Click "Generate Password"
+4. Copy, save, or analyze your password
+
+### Batch Generation
+1. Switch to the "Batch Generator" tab
+2. Set the number of passwords to generate
+3. Configure generation options (uses same settings as single generator)
+4. Click "Generate Multiple Passwords"
+5. Export results as needed
+
+### Password Analysis
+1. Go to the "Analyzer" tab
+2. Enter a password to analyze
+3. Click "Analyze" to get detailed strength report
+4. Review recommendations for improvement
+
+### Settings & Customization
+1. Visit the "Settings" tab
+2. Configure auto-copy, history saving, and security options
+3. Save your preferences
+
+## 🏗️ Project Structure
+
+
+## 🔧 Technical Details
+
+### Architecture
+- **Modular Design**: Separated concerns for maintainability
+- **Object-Oriented**: Clean class structure with inheritance
+- **Type Hints**: Full type annotation for better code quality
+- **Error Handling**: Comprehensive exception handling
+
+### Security Implementation
+- **Cryptographically Secure**: Uses `secrets` module for randomization
+- **Entropy-Based Analysis**: Mathematical approach to strength calculation
+- **Pattern Recognition**: Advanced regex patterns for common weaknesses
+- **No Data Persistence**: Sensitive data cleared from memory
+
+### Performance
+- **Efficient Generation**: Optimized algorithms for fast password creation
+- **Batch Processing**: Handles large quantities without performance degradation
+- **Memory Management**: Proper cleanup and garbage collection
+- **Responsive UI**: Non-blocking operations with progress indicators
+
+## 📊 Password Strength Scoring
+
+The application uses a comprehensive 100-point scoring system:
+
+| Component | Max Points | Description |
+|-----------|------------|-------------|
+| Length | 30 | Longer passwords are exponentially stronger |
+| Character Diversity | 25 | Using multiple character sets |
+| Entropy | 25 | Mathematical measure of randomness |
+| Uniqueness | 10 | Ratio of unique to total characters |
+| Pattern Penalties | -40 | Deductions for predictable patterns |
+| Common Password | -40 | Major penalty for dictionary words |
+
+### Strength Levels
+- **Very Strong (90-100)**: Excellent security, very difficult to crack
+- **Strong (75-89)**: Good security for most purposes
+- **Good (60-74)**: Adequate for standard accounts
+- **Fair (40-59)**: Minimum acceptable strength
+- **Weak (20-39)**: Should be improved
+- **Very Weak (0-19)**: Not recommended for use
+
+## 🧪 Testing
+
+Run the test suite to verify functionality:
+
+### Test Coverage
+- Core password generation functions
+- Security analysis algorithms
+- Edge cases and error conditions
+- Performance benchmarks
+
+## 🔒 Security Considerations
+
+### Best Practices Implemented
+- **Secure Random Generation**: Uses cryptographically secure randomness
+- **Memory Safety**: Sensitive data cleared after use
+- **No Network Communications**: Completely offline operation
+- **Minimal Dependencies**: Reduces attack surface
+
+### Recommendations for Users
+- **Use Unique Passwords**: Never reuse passwords across accounts
+- **Enable 2FA**: Two-factor authentication adds extra security
+- **Regular Updates**: Change passwords periodically
+- **Secure Storage**: Use a password manager for storage
+
+## 🛠️ Development
+
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests for new functionality
+5. Submit a pull request
+
+### Development Setup
+
+### Code Style
+- Follow PEP 8 guidelines
+- Use type hints for all functions
+- Document all public methods
+- Maintain test coverage above 90%
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👨‍💻 Author
+
+**OMM Projects**
+- Website: [projects-omm.space](https://i.projects-omm.space)
+- GitHub: [@omm-projects](https://github.com/Omm045)
+
+## 🙏 Acknowledgments
+
+- Python community for excellent documentation
+- tkinter developers for the GUI framework
+- Security researchers for password analysis techniques
+- Open source contributors for inspiration and best practices
+
+## 📈 Roadmap
+
+### Planned Features
+- [ ] **Web Interface**: Browser-based version
+- [ ] **Mobile App**: iOS and Android versions
+- [ ] **Browser Extension**: Integration with web browsers
+- [ ] **API Service**: RESTful API for integration
+- [ ] **Advanced Policies**: Enterprise-grade policy enforcement
+- [ ] **Multi-language Support**: Internationalization
+
+### Version History
+- **v2.0.0**: Complete rewrite with modern architecture
+- **v1.5.0**: Added batch generation and analysis
+- **v1.0.0**: Initial release with basic functionality
+
+---
+
+**Built with ❤️ by OMM Projects**
