@@ -120,7 +120,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **OMM Projects**
-- Website: [projects-omm.space](https://i.projects-omm.space)
+- Website: [projects-omm.space](https://go.projects-omm.space)
 - GitHub: [@omm-projects](https://github.com/Omm045)
 
 ## 🙏 Acknowledgments
