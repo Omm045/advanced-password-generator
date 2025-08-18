@@ -1,5 +1,4 @@
 # Core dependencies for Password Generator
-tkinter  # Usually included with Python
 secrets  # Built-in module
 string   # Built-in module
 random   # Built-in module
